@@ -10,6 +10,7 @@ package ProductManager;
  * @author Hassan Mir
  */
 public class ProductManager {
+    // Calculates the price after applying a discount rate.
 
     public double calculateDiscount(double price, double discountRate) {
         return price - (price * discountRate);
