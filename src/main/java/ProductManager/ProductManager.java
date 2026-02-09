@@ -11,5 +11,8 @@ package ProductManager;
  */
 public class ProductManager {
 
+    public double calculateDiscount(double price, double discountRate) {
+        return price - (price * discountRate);
+    }
 }
 
